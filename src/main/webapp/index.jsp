@@ -12,6 +12,10 @@
 <h1>세번째 제목</h1>
 <h1>네번째 제목</h1>
 <h1>다섯번째 제목</h1>
+<<<<<<< HEAD
 <h1>제목 추가</h1>
+=======
+    <h1>다른 팀원이 제목 추가</h1>
+>>>>>>> branch 'master' of https://github.com/johyeji98/MyAppGit.git
 </body>
 </html>
