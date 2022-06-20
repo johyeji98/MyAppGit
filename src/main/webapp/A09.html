@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A09.html</title>
+</head>
+<body>
+    <!--http로 시작하면 절대주소   //로시작해도 절대주소
+
+     a태그에서 중요한거 절대주소 상대주소
+     ?이름 을 파라미터라고 부름
+     ?(물음표)부터 쿼리스트링이라고 함
+
+     !!a태그로 값을 전달하면get방식 중요!!!
+    -->
+    <DIV>
+        <h2>A태그</h2>
+        <h3>_self(현재 탭에 이동할 웹 문서의 내용을 표시:디폴트)</h3>
+        <a href="http://127.0.0.1:5500/HTML5/ULOL08.html">target속성 미 지정(절대경로-http로시작)</a><br/>
+        <a href="/HTML5/ULOL08.html">target속성 미 지정(절대경로 - /로 시작)</a><br/>
+        <a href="ULOL08.html">target속성 미 지정(상대경로)</a><br/>
+        <h3>_blank(현재탭이 아닌 새로운 탭에 이동할 웹 문서의 내용을 표시한다</h3>
+        <a href="../JavaScript_ES5/JavaScriptFirst.html" target="_blank">target속성 지정(상대경로)</a>
+        <h3>쿼리스트링으로 데이타 전달</h3>
+        <a href="ULOL08.html?username=kim&name=홍길동&age=20">GET방식으로 데이타 전송</a><br/>
+    </DIV>
+</body>
+</html>
